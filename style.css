@@ -1,0 +1,36 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.vermelho:hover {
+    background-color:crimson;
+    color: black;
+    font-weight: bold;
+} 
+
+.amarelo:hover {
+    background-color:rgb(218, 206, 32);
+    color: black;
+    font-weight: bold;
+} 
+
+.verde:hover {
+    background-color:limegreen;
+    color: black;
+    font-weight: bold;
+} 
+
+.auto:hover {
+    background-color: dimgray;
+    font-weight: bold;
+}
+
